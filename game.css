@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+
+td {
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 90px;
+}
+
+.winner {
+    display: none;
+    color: #4dc329;
+}
+
+.visible {
+    display: flex;
+}
